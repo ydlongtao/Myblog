@@ -1,0 +1,12 @@
+# Local Netlify folder
+.netlify
+
+# Local source materials and visual QA files
+qa/
+0Y4A4247-small-修.jpg
+2025个人简历---终版.docx
+/*.pptx
+Longtao_academic resume.pdf
+
+# macOS
+.DS_Store
