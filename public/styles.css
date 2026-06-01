@@ -189,7 +189,7 @@ footer { width: min(1320px, calc(100% - 48px)); margin: 70px auto 0; padding: 24
   .portrait-note { right: 0; bottom: 0; }
   .orbit-one { width: 350px; height: 350px; }
   .orbit-two { width: 385px; height: 250px; }
-  h1 { font-size: 54px; }
+  h1 { font-size: 50px; }
   body.lang-en h1 { font-size: 52px; }
   h2 { font-size: 45px; }
   .hero-meta { margin-top: 48px; gap: 12px; font-size: 9px; }
