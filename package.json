@@ -1,0 +1,19 @@
+{
+  "name": "ydlongtao-vuepress-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VuePress blog and academic homepage for Longtao Huangfu.",
+  "scripts": {
+    "sync:wechat": "node scripts/sync-wechat-articles.mjs",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "serve": "npx serve docs/.vuepress/dist",
+    "deploy:github": "npm run sync:wechat && npm run build && node scripts/deploy-github-pages.mjs"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.30",
+    "@vuepress/theme-default": "^2.0.0-rc.130",
+    "sass-embedded": "^1.100.0",
+    "vuepress": "next"
+  }
+}

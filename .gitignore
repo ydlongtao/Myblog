@@ -1,8 +1,16 @@
 # Local Netlify folder
 .netlify
+.deploy-gh-pages/
+
+# Node / VuePress
+node_modules/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+docs/.vuepress/dist/
 
 # Local source materials and visual QA files
 qa/
+vuepress-home-*.png
 0Y4A4247-small-修.jpg
 2025个人简历---终版.docx
 /*.pptx
