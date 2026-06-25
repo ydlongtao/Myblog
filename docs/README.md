@@ -1,8 +1,8 @@
 ---
 home: true
-heroImage: /assets/images/avatar-stomach.jpeg
-heroText: 皇甫龙韬
-tagline: Longtao Huangfu · 肿瘤药理学与胃癌转化研究
+heroImage: /assets/images/lonto-lab-logo.svg
+heroText: null
+tagline: null
 actions:
   - text: 查看微信推文
     link: /wechat/
@@ -17,6 +17,10 @@ features:
     details: 同步展示“现智研”公众号项目中已完成的科技与科研推文。
   - title: 实用技能
     details: 后续沉淀科研写作、数据分析、自动化工具与 AI Agent 工作流。
+  - title: 碎碎念
+    details: 后续记录研究之外的观察、想法和阶段性随笔。
+  - title: 实验室日常
+    details: 后续记录实验室建设、组会、协作和日常片段。
 footer: 北京大学肿瘤医院 | Peking University Cancer Hospital
 ---
 
@@ -53,6 +57,10 @@ footer: 北京大学肿瘤医院 | Peking University Cancer Hospital
   <a class="link-card" href="/Myblog/notes/">
     <strong>04</strong>
     碎碎念 · 待更新
+  </a>
+  <a class="link-card" href="/Myblog/lab-daily/">
+    <strong>05</strong>
+    实验室日常 · 待更新
   </a>
 </div>
 
