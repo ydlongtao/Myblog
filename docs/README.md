@@ -17,10 +17,10 @@ features:
     details: 同步展示“现智研”公众号项目中已完成的科技与科研推文。
   - title: 实用技能
     details: 后续沉淀科研写作、数据分析、自动化工具与 AI Agent 工作流。
-  - title: 碎碎念
-    details: 后续记录研究之外的观察、想法和阶段性随笔。
   - title: 实验室日常
     details: 后续记录实验室建设、组会、协作和日常片段。
+  - title: 碎碎念
+    details: 后续记录研究之外的观察、想法和阶段性随笔。
 footer: 北京大学肿瘤医院 | Peking University Cancer Hospital
 ---
 
@@ -44,23 +44,23 @@ footer: 北京大学肿瘤医院 | Peking University Cancer Hospital
 <div class="link-grid">
   <a class="link-card" href="/Myblog/research-team/">
     <strong>01</strong>
-    团队研究 · 待更新
+    <span>团队研究 · 待更新</span>
   </a>
   <a class="link-card" href="/Myblog/wechat/">
     <strong>02</strong>
-    微信推文 · 已同步
+    <span>微信推文 · 已同步</span>
   </a>
   <a class="link-card" href="/Myblog/practical-skills/">
     <strong>03</strong>
-    实用技能 · 待更新
-  </a>
-  <a class="link-card" href="/Myblog/notes/">
-    <strong>04</strong>
-    碎碎念 · 待更新
+    <span>实用技能 · 待更新</span>
   </a>
   <a class="link-card" href="/Myblog/lab-daily/">
+    <strong>04</strong>
+    <span>实验室日常 · 待更新</span>
+  </a>
+  <a class="link-card" href="/Myblog/notes/">
     <strong>05</strong>
-    实验室日常 · 待更新
+    <span>碎碎念 · 待更新</span>
   </a>
 </div>
 

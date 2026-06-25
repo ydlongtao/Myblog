@@ -119,6 +119,14 @@ h3 {
   background: rgba(246, 241, 230, 0.48);
 }
 
+.vp-home .vp-feature h2,
+.vp-home .vp-feature p {
+  word-break: keep-all;
+  overflow-wrap: normal;
+  line-break: strict;
+  text-wrap: pretty;
+}
+
 .theme-default-content img {
   border-radius: 8px;
 }
@@ -132,9 +140,8 @@ h3 {
 }
 
 .link-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 1rem;
   margin: 1.5rem 0 2rem;
 }
@@ -152,15 +159,30 @@ h3 {
 
 .link-card {
   box-sizing: border-box;
-  flex: 1 1 220px;
-  max-width: 280px;
-  min-width: min(100%, 220px);
+  grid-column: span 2;
   min-height: 120px;
   padding: 1.1rem;
   border: 1px solid var(--vp-c-border);
   border-radius: 8px;
   background: rgba(246, 241, 230, 0.56);
   text-align: center;
+  word-break: keep-all;
+  overflow-wrap: normal;
+  line-break: strict;
+  text-wrap: pretty;
+}
+
+.link-card:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+
+.link-card:nth-child(5) {
+  grid-column: 4 / span 2;
+}
+
+.link-card span {
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .profile-card strong,
@@ -211,6 +233,12 @@ h3 {
   .link-grid {
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .link-card,
+  .link-card:nth-child(4),
+  .link-card:nth-child(5) {
+    grid-column: auto;
   }
 
   .link-card {

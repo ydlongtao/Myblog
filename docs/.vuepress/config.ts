@@ -27,8 +27,8 @@ export default defineUserConfig({
       { text: "团队研究", link: "/research-team/" },
       { text: "微信推文", link: "/wechat/" },
       { text: "实用技能", link: "/practical-skills/" },
-      { text: "碎碎念", link: "/notes/" },
       { text: "实验室日常", link: "/lab-daily/" },
+      { text: "碎碎念", link: "/notes/" },
       {
         text: "简历",
         children: [
