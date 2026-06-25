@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: "肿瘤药理学研究者，专注于胃癌演化、ecDNA 与抗肿瘤药物开发。",
   bundler: viteBundler(),
   head: [
-    ["link", { rel: "icon", href: "/Myblog/assets/images/lonto-lab-logo.svg" }],
+    ["link", { rel: "icon", href: "/Myblog/assets/images/lonto-lab-logo.png" }],
     ["meta", { name: "author", content: "Longtao Huangfu" }],
     [
       "meta",
@@ -20,7 +20,7 @@ export default defineUserConfig({
     ],
   ],
   theme: defaultTheme({
-    logo: "/assets/images/lonto-lab-logo.svg",
+    logo: "/assets/images/lonto-lab-logo.png",
     logoAlt: "Lonto Lab",
     navbar: [
       { text: "首页", link: "/" },

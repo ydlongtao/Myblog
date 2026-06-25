@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /assets/images/lonto-lab-logo.svg
+heroImage: /assets/images/lonto-lab-logo.png
 heroText: null
 tagline: null
 actions:
