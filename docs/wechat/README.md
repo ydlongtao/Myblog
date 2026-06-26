@@ -11,6 +11,8 @@ description: 同步自现智研公众号项目的文章列表。
 
 ## 最新文章
 
+- 2026-06-25 · [NCB- ecDNA搭车遗传](./20260625/ecdna_segregation.md)  
+  癌细胞如何保住染色体外的“外挂DNA”
 - 2026-06-24 · [生物AI不是越训越强](./20260624/biological_reasoning_posttraining.md)  
   很多人默认，只要给模型更多数据、更多训练轮次和更多算力，它就会变得更强。
 - 2026-06-22 · [代码正在成为Agent底座](./20260622/code_as_agent_harness.md)  
