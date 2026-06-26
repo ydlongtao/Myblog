@@ -5,7 +5,7 @@ import { defaultTheme } from "@vuepress/theme-default";
 export default defineUserConfig({
   base: "/Myblog/",
   lang: "zh-CN",
-  title: "皇甫龙韬 | Longtao Huangfu",
+  title: "Longtao Lab",
   description: "肿瘤药理学研究者，专注于胃癌演化、ecDNA 与抗肿瘤药物开发。",
   bundler: viteBundler(),
   head: [

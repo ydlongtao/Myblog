@@ -49,11 +49,20 @@ h3 {
 }
 
 .vp-site-name {
-  display: none;
+  display: inline-flex;
+  align-items: center;
+  color: var(--vp-c-text);
+  font-family: "DM Serif Display", Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0;
 }
 
 .vp-site-logo {
+  width: 2rem;
+  height: 2rem;
   border-radius: 8px;
+  object-fit: cover;
 }
 
 .vp-home .vp-hero {
@@ -102,7 +111,8 @@ h3 {
 
 .vp-home .vp-features {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  align-items: stretch;
   gap: 1rem;
   max-width: 1120px;
   margin: 2.75rem auto 0;
@@ -110,13 +120,35 @@ h3 {
 }
 
 .vp-home .vp-feature {
+  grid-column: span 2;
+  display: flex;
+  min-height: 190px;
+  flex-direction: column;
   width: auto;
   max-width: none;
   margin: 0;
-  padding: 1.1rem;
+  padding: 1.15rem 1.2rem;
   border-color: var(--vp-c-border);
   border-radius: 8px;
   background: rgba(246, 241, 230, 0.48);
+}
+
+.vp-home .vp-feature:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+
+.vp-home .vp-feature:nth-child(5) {
+  grid-column: 4 / span 2;
+}
+
+.vp-home .vp-feature h2 {
+  margin-bottom: 0.85rem;
+  white-space: nowrap;
+}
+
+.vp-home .vp-feature p {
+  margin: 0;
+  line-height: 1.82;
 }
 
 .vp-home .vp-feature h2,
@@ -228,6 +260,13 @@ h3 {
 
   .vp-home .vp-features {
     grid-template-columns: 1fr;
+  }
+
+  .vp-home .vp-feature,
+  .vp-home .vp-feature:nth-child(4),
+  .vp-home .vp-feature:nth-child(5) {
+    grid-column: auto;
+    min-height: auto;
   }
 
   .link-grid {
